@@ -4,12 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "story:dev": "histoire dev",
-    "story:build": "histoire build",
-    "story:preview": "histoire preview"
+    "dev": "histoire dev",
+    "build": "histoire build",
+    "preview": "histoire preview"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +20,6 @@
   "dependencies": {
     "animejs": "^4.0.2",
     "vue": "^3.5.13"
-  }
+  },
+  "packageManager": "pnpm@10.10.0"
 }
